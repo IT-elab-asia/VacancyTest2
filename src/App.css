@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #363636;
+}
+
+form{
+  margin-left: 90px;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  color: #363636;
+}
+
+.coin-search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.coin-text {
+  margin-bottom: 70px;
+  margin-top: 50px;
+  text-align: center;
+  color: #45852D;
+}
+
+.coin-input {
+  padding-left: 16px;
+  margin-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  color: #363636;
+  box-shadow: 0 0 3px 3px #0000001c;
+}
+
+.coin-input::placeholder {
+  color: #e2e2e2;
+}
+
+.coin-input::placeholder {
+  color: #e2e2e2;
+}
+
+@media screen and (max-width: 1010px) {
+  .coin-search{
+    margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-left: 0px;
+  }
+  form{
+    margin-left: 90px;
+  }
+  .coin-text {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  .coin-input {
+    padding-left: 16px;
+    width: 300px;
+    height: 50px;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  form{
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .coin-input{
+    width: 200px;
+    height: 40px;
+  }
+}
+
+.post{
+  display: flex;
+}
